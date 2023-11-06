@@ -1,0 +1,254 @@
+/* GENERAL CSS */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* NAVIGATIONS CSS */
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav img{
+  width: 150px;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+.nav-links li{
+  list-style-type: none;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.nav-links{
+  display: flex;
+  width: 27%;
+  margin-right: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .fa-bars{
+  display: none;
+}
+
+/* FIRST SECTION CSS */
+.first-section{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.first-section-left{
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  margin-left: 60px;
+  justify-content: center;
+}
+.first-section-left h1{
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.first-section-left p{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.input-button-one input{
+  width: 250px;
+  height: 33px;
+  padding-left: 10px;
+  border: 1px solid gray;
+  outline: none;
+  margin-right: 7px;
+}
+.input-button-one button{
+  width: 170px;
+  height: 33px;
+  color: #fff;
+  background-color: blue;
+  border: none;
+}
+.first-section-right{
+  display: flex;
+  width: 55%;
+}
+.first-section-right img{
+  width: 500px;
+}
+
+/* BACKGROUND CURVE CSS */
+.bg-curve{
+  width: 100%;
+}
+.bg-curve-desktop{
+ width: 100%;
+ margin-bottom: -5px;
+}
+.bg-curve-mobile{
+  display: none;
+}
+
+/* SECOND SECTION CSS */
+.second-section{
+  display: flex;
+  width: 100%;
+  background-color: hsl(0, 8%, 98%);
+  margin-bottom: 30px;
+}
+.second-section-left{
+  width: 45%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second-section-left h1{
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.second-section-left .para{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.second-section-left a{
+  color: green;
+  font-size: 18px;
+}
+.card{
+  width: 57%;
+  height: 190px;
+  background-color: #fff;
+  transition: 0.2s;
+  border: 1px solid rgb(235, 234, 234);
+  box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.ceo{
+  display: flex;
+  padding-top: 15px;
+}
+.ceo img{
+  width: 50px;
+  border-radius: 25px;
+  margin: 5px;
+}
+.ceo p{
+  margin: 10px 5px;
+}
+.second-section-right{
+  display: flex;
+  width: 55%;
+}
+.second-section-right img{
+  width: 500px;
+}
+
+/* THIRD SECTION CSS */
+.third-section{
+  width: 100%;
+  display: flex;
+  background-color:hsl(238, 22%, 44%);
+  min-height: 35vh;
+}
+.third-section-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+  color: #fff;
+}
+.third-section-left h2{
+  margin-bottom: 15px;
+}
+.third-section-left p{
+  line-height: 20px;
+}
+.third-section-right{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.third-section-right input{
+  width: 55%;
+  height: 35px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  outline: none;
+}
+.third-section-right button{
+  width: 25%;
+  height: 35px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+}
+
+
+/* FOOTER CSS */
+.footer{
+  width: 100%;
+  min-height: 35vh;
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  color: #fff;
+}
+.footer li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.footer-one{
+  width: 25%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+}
+.logo{
+  width: 100px;
+  margin-bottom: 10px;
+}
+.footer-two{
+  width: 25%;
+  display: flex;
+  margin-top: 97px;
+}
+.footer-three{
+  width: 25%;
+  display: flex;
+  margin-top: 97px;
+}
+.footer-four{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-brands{
+  margin-right: 10px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* COPYRIGHTS CSS */
+.copyrights{
+  width: 100%;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  line-height: 25px;
+}
+.copyrights a{
+  text-decoration: none;
+  color: #000;
+} 
